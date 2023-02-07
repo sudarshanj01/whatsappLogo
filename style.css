@@ -1,0 +1,50 @@
+Body{
+  Margin: 0;
+  Padding: 0;
+  Background: Lightblue;
+}
+Div{
+  Width: 70px;
+  Height: 70px;
+  Border-Radius: 35px;
+  Background: #3AC371;
+  Position: Absolute;
+  Left: 50%;
+  Top: 50%;
+  Transform: Translate(-50%,-50%);
+}
+.White{
+  Width: 80px;
+  Height: 80px;
+  Border-Radius: 40px;
+  Background-Color: #Fff;
+  Box-Shadow: 2px 2px 3px 2px Rgba(0,0,0,.3);
+}
+.White::Before{
+  Content: "";
+  Top: 65px;
+  Left: -15px;
+  Border-Width: 20px;
+  Border-Style: Solid;
+  Border-Color: Transparent #Fff Transparent Transparent;
+  Position: Absolute;
+  Transform: Rotate(-50deg) RotateX(-55deg);
+}
+.White::After{
+  Content: "";
+  Top: 63px;
+  Left: -4px;
+  Border-Width: 15px;
+  Border-Style: Solid;
+  Border-Color: Transparent #3AC371 Transparent Transparent;
+  Position: Absolute;
+  Transform: Rotate(-51deg) RotateX(-50deg);
+}
+.Fas{
+  Left: 17px;
+  Top: 18px;
+  Position: Absolute;
+  Font-Size: 35px;
+  Color: #Fff;
+  Transform: Rotate(90deg);
+}
